@@ -38,5 +38,17 @@ class Booking:
             if text[1] == currency:
                 btn.click()
                 break
+    
+    # Tasks to be done
+    def place_to_go(self, place=None):
+        pass
+
+    def apply_filtrations(self, filtrations=None):
+        pass
+
+    def report_results(self):
+        pass
+
+    
         
         
