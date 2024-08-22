@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 myEmail = "9515972954"
 myPassword = "Manu@2711"
 
-os.environ['PATH'] += r';C:\SeleniumDrivers\chromedriver-win64'
+os.environ['PATH'] += r'C:\SeleniumDrivers\chromedriver-win64'
 driver = webdriver.Chrome()
 driver.get("https://www.facebook.com/")
 driver.maximize_window()
